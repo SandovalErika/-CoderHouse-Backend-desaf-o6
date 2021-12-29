@@ -1,5 +1,5 @@
 <h2 class="text-danger">Carrito</h1>
-    {{#if false }}
+    {{#if showList }}
     <table class="table">
         <thead>
             <tr>
@@ -11,12 +11,12 @@
         </thead>
         <tbody>
             {{#each list}}
-            <tr>
-                <th scope="row">{{this.id}}</th>
-                <td>{{this.title}}</td>
-                <td>${{this.price}}</td>
-                <td><img style="height: 3rem;" src="{{this.thumbnail}}" alt=""></td>
-            </tr>
+                <tr>
+                    <th scope="row">{{this.id}}</th>
+                    <td>{{this.title}}</td>
+                    <td>${{this.price}}</td>
+                    <td><img style="height: 3rem;" src="{{this.thumbnail}}" alt=""></td>
+                </tr>
             {{/each}}
         </tbody>
     </table>
