@@ -72,7 +72,7 @@ router2.post("/", (req, res) => {
   carritos.createCart(req.body);
   let content = carritos.carts;
   let boolean = content.length !== 0;
-  return res.render("partials/cart.hbs", { 
+  return res.render("layouts/cartRouter.hbs", { 
     list: content, 
     showList: boolean });
 });
@@ -81,7 +81,7 @@ router2.delete("/:id", (req, res) => {
   // Vacía un carrito y lo elimina
   let id = Number(req.params.id);
   let content = carritos.deleteCart(id);
-  return res.render("partials/cart.hbs", { 
+  return res.render("layouts/cartRouter.hbs", { 
     list: content, 
     showList: false });
 });
@@ -91,7 +91,7 @@ router2.get("/:id/productos", (req, res) => {
   let id = Number(req.params.id);
   let content = carritos.getAll(id)
   let boolean = content.length !== 0;
-  return res.render("partials/cart.hbs", { 
+  return res.render("layouts/cartRouter.hbs", { 
     list: content, 
     showList: boolean });
 });
@@ -102,7 +102,7 @@ router2.post("/:id/productos", (req, res) => {
   let product = req.body
   let content = carritos.addProduct(id, product)
   let boolean = content.length !== 0;
-  return res.render("partials/cart.hbs", { 
+  return res.render("layouts/cartRouter.hbs", { 
     list: content, 
     showList: boolean });
 });
@@ -113,7 +113,7 @@ router2.delete("/:id/productos/:id_prod", (req, res) => {
   let idProd = Number(req.params.id_prod);
   let content = carritos.deleteProduct(idCart, idProd)
   let boolean = content.length !== 0;
-  return res.render("partials/cart.hbs", { 
+  return res.render("layouts/cartRouter.hbs", { 
     list: content, 
     showList: boolean });
 });

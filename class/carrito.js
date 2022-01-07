@@ -11,7 +11,7 @@ class Cart {
     }
     init() {
         try {
-			let data =   fs.promises.readFile(this.fileName);
+			let data = fs.promises.readFile(this.fileName);
 			this.carts = JSON.parse(data);
 			for (const element of this.carts) {
 				if (element.id > this.countID) this.countID = element.id;
