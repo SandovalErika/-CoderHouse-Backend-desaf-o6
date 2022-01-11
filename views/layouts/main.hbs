@@ -12,11 +12,31 @@
         <br>
         <div class="container bg-light p-3 rounded">
             {{> form}}
-            {{> products}}
+            
+            <h2 class="text-danger">Lista de productos</h1>
+            {{#each list}}
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{this.thumbnail}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{this.title}}</h5>
+                        <p class="card-text">{{this.description}}</p>
+                        <form action="/api/carrito"  method="post">
+
+                        
+                            <button type="submit" class="btn btn-success" >+</button>
+                        </form>
+                    
+                        
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+
         </div>
         <br>
         <div class="container bg-light p-3 rounded">
-            {{!-- {{> cart}} --}}
+            {{> cart}}
         </div>
 
         {{!-- SCRIPTS --}}
