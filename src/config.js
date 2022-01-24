@@ -13,18 +13,20 @@ export default {
   },
   firebase: {
     type: "service_account",
-    project_id: "curso-back",
-    private_key_id: "7134088ba958127a8eb44ba55d523378aab61e2b",
+    project_id: "books-ecommerce-471c2",
+    private_key_id: "65e445610ebc8b81f9119130999ff8ca02ab4c72",
     private_key:
-      "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDXcLbMyH1SnYMw\nJvSOOOHkKOcNDhSND78cQ5QxUiA5mKaXoNrX+7NhjFNT/fEw/dRYTpJ7g4+x6SIj\neVOmPSYJfFcQOucCr3dDziF8sqxP/UI/dKG0funPNVv2lf/2kNXh2XXfCGxL3aUN\nQt62CS6AH/yek+QeYfqsQezJ7bBLz3Wi3b2T7BA2tzCOG4EmAdO3HapFliww0R48\nUscfY3Nn+0oliufYQ+aP9FybKFn2M53Hkwnak0xyPJvaoiVGtMsPHw2nzNeqUSHf\nLfQIZa6oh9fTCg+qe2yrCQ6c7zCZedRVFRTOXK2cR2iMnPtf5YmUuwJ/TJEolUrj\nYCvpftuFAgMBAAECggEACOlxtmDoxj0byychYKy7s2t5u1GEyh0Ho8yr2apzCM7m\nvUj7JIoV7ogWflf33TXyzcBaUN+tVwe00NDZA/xtkWDiXRqCqdrGTTi+q+DcPebV\nEbjqY4QIefjUGAw2bWWqY1BSjupTSIQfqr/EZLVWhhhMo+asPhGBhBSqDeRWMZyM\n20DhzYvD0hJwg7uRomWrfD7WMRjkhkHanRAGXJ1pMimeN194RLQchD9xsQR/IEEv\nYYlKZ4NKJR/w0SVexA27k9A10pkN856ar+kGzaz1PSwotyplTOucAoFE7lHbVnTE\nHDAN9LeyLek9XjrC5sf0gQ/s+yyDJnmPRbXuzZIB9QKBgQD/EVnwgg3Fd5gAGa3+\nNn+tleWc1cPKw6et0lO3jGkySxTy1QgLDbleaymfOJOG7VoD11U+PegosQuO5vR4\nHU0yPe+WoG83ejcmR8wZv3UNDxNmWOd4+lJ5NVV5GDxeGcNVRUP+vWgHB97w9V6g\nt+8Le7BEpo4zJio92N2aMV5h4wKBgQDYOkk/ww9ca57+A0rqVvmdNtAjWc/FsnAV\nxN9K0NnJyyQQBUewTFi/EW//iXgCdkPenY03eD9VMme7Ks7UZ5ZHvppMvgFQzY7z\n5NeKJFLYu/qLaip6C8QDB6oBZXZTLXRXf/vxo0LBDqfNqq8XXuMzr22zQtYiDCv+\n2dvyLeYpdwKBgQD94naEl98/S6AnkWgH3pVN4iNP7dLaM8/mi7E6xO882VE7uGIu\nJnX5jm86heUKa5yqsB6wOoyoXDml/ysdmATr2oxtgLnTHbphRxvYESNgYT4tJJca\nawfGkBjI1R/ZholQigZ5PGycevAlJgcPsKWm53H3k1V9giKPtxo0zaklgwKBgGza\nwv9/kp8javJT9AYPbTCRZK03TJspXrYG26bNh6bIRspt7g46ET93ZtvNeAY9RaOv\ny2UOe0vHyWL3hRJ3Z7eMpB9YVE86fOoZ3cykxrRnxhUjiGjSvYYM+LAlRTFQo85d\nFxgp6bRJTX8Dm4v3cAgYG/DwB98yI3/0a377TnC3AoGBALydoZ1copxVDEH/tsnY\n7JdAjd88ir3v/i2MkWXWpvQtQdrpL53nDcA3kWYdOwIwww75Urk7vgT+jE4qptkb\n/lJUZJPbqIeZXXHSqYkU6MWuCgVvDoeAdcX3PDZ+h4Mm61RUfV7nz128j5bsBM2L\n6Sr0jgQcflXU1VbWcPcDTX/2\n-----END PRIVATE KEY-----\n",
-    client_email: "firebase-adminsdk-dh6zi@curso-back.iam.gserviceaccount.com",
-    client_id: "103565030758591757229",
+      "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDNyhh83CDNoO0r\nr6gdFBzk9Oia34v54vLJd4mK3EDXJqtK4/pyRPFWjPUAXh9FMpsv/9qwf5DJGUyQ\natc4sB+2acGaZG65CQGmM7iedE56PAv084gCWAFAKbWe9a8Ryw53SVpy9COP0uIG\n/9ZJrhKGZdz8Jm/GS4Wnpz7zlzsG0xpV85y76eyoWQWFgHYTLOfP2T5v/XSnk5PE\nMFSbNGA7l4BY7TADnsNrdVIMURW2u4TSkkTrjxXeoLuoDOX15edpL6CxiRJD9xcR\nePq5o4x0eo52g/1cy9l5ddHwcOhur/1W9N6TKZNecf4CHSzSAIg1qPdWGLVcWOv2\n8OLX341LAgMBAAECggEAUuAVtosMJuOtQA+wu20zKb27w0tN2ufb8OjUGnkTH9Jx\n32oqnURIkRuZO3msTDjSKKV4U+Y7z9EBdZOhczHyw4qZrmzN7nTDFkT0D9Q1GqL+\nCbrdxlvcvRNPEmJNC/RjsgR3iZ3qiGxcHIeBrBCPY1K4iU+NaiVWASuofX8lBVzb\nIaPq9yInEWcY7HiBGgVqCFSmeawLRq5gQIGZs1pHQGXxMp0+UomGZwyQHac1+XO0\nbGzGW46l7OtvV1tkZEQu2BL2wQJ3zuLSdhdRyI3XX5sO3Y5bu+0awksgWEZ6yPxu\nwqxy+XJRu8pUMJa6DlA7YOGrdGiJqfbo0/SKEnJyuQKBgQD8jk9qyEW7V8t5iHDz\ndcgIJjxF5OHwUsSSRsGDhtzimWpnPuR3PUW91gg+YXbb2PJ/0QSDQGQWWr61qgZ/\n/tA7ps2uCblIurquWHAIc1xmLGB+Bo6ZX4H8FMxv6y38pkbnQLxOeVYp8u5qmbSv\nYktG/Wl/82O2LM+WK7J2FCYXpQKBgQDQmIVB5bO1vy8tRFka0xrnioKDLQHXvYS/\nLOOqQyliCpv3vVTOO3ifndX+w0XRJMd/eKIRyJsjt9IJOWh+AQLrr73wo2Vu/MfO\nuVjzDT0SiesxAxuueqgbzk9nXHFNu+faH4pI8jDOk0+CRQFyDHgfHXKW4RUZY5Qh\n+vPL2+Z+LwKBgQC3YhIyhDd2ABrkJXl2nohfunu7eKXCXicT28K54VxUQXesflNg\nbaJNZLNZsGWg3xe+TaRMNZ43SS7/M/VCTWEgX08r1y2trMDOxbKbwEBQhFqQR+yV\nW29D/kov3gHnWUlUs4HILXyuOxJ5XyB+1Q25/1nyqWU2q7UT4qjT6m96bQKBgCQo\nS/EAQAZg/Wx7THa54RABkl3qj0c2Mqxwu4Xn3mSAMkjfKLQW2vHQCif+8TsvhOUz\no+QxQbMPSfkPWm18/2SbMfFkYVC7wGa0+hYnVU7BWWNFhqbX3Av11w2zmHBBAg9t\nKCs8z/j+z+lkzLtYLfo2wIYmveGIwUSim1/a3jlBAoGAPhq72z23JwowHS3Pu16W\nNijRXjGdPwaRVA7kj6ikJBtswJ6W4SaRQLnJinHeirbf0cgCthrrCZ8+BUJVRYhi\nDrtgW/xsP7Xa0YaJz/sxw6IKVWIsoTasj6mRZpohj1Hcr1QNuNuK4D/cx2L38q3W\nUDj+916DJ9nQjioJdQMdy3s=\n-----END PRIVATE KEY-----\n",
+    client_email:
+      "firebase-adminsdk-1q97h@books-ecommerce-471c2.iam.gserviceaccount.com",
+    client_id: "113952790758875083871",
     auth_uri: "https://accounts.google.com/o/oauth2/auth",
     token_uri: "https://oauth2.googleapis.com/token",
     auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
     client_x509_cert_url:
-      "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-dh6zi%40curso-back.iam.gserviceaccount.com",
+      "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1q97h%40books-ecommerce-471c2.iam.gserviceaccount.com",
   },
+
   sqlite3: {
     client: "sqlite3",
     connection: {
@@ -38,7 +40,7 @@ export default {
       host: "localhost",
       user: "root",
       password: "secret",
-      database: "desafio-7",
+      database: "desafio-6",
     },
   },
 };
